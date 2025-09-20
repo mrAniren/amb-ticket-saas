@@ -1,0 +1,367 @@
+.payment-success-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+}
+
+.payment-success {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  animation: slideIn 0.3s ease-out;
+
+  @keyframes slideIn {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  &__header {
+    text-align: center;
+    padding: 40px 30px 30px;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  &__icon {
+    margin-bottom: 20px;
+    
+    svg {
+      filter: drop-shadow(0 4px 8px rgba(16, 185, 129, 0.3));
+    }
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #111827;
+    margin: 0 0 8px 0;
+  }
+
+  &__subtitle {
+    font-size: 1.1rem;
+    color: #6b7280;
+    margin: 0;
+    line-height: 1.5;
+  }
+
+  &__content {
+    padding: 30px;
+  }
+
+  &__order-info,
+  &__event-info {
+    margin-bottom: 30px;
+
+    h2 {
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #111827;
+      margin: 0 0 15px 0;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #f3f4f6;
+    }
+  }
+
+  &__notice {
+    margin-bottom: 20px;
+
+    .notice-box {
+      background: #f0f9ff;
+      border: 1px solid #0ea5e9;
+      border-radius: 8px;
+      padding: 20px;
+
+      h3 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: #0c4a6e;
+        margin: 0 0 12px 0;
+      }
+
+      ul {
+        margin: 0;
+        padding-left: 20px;
+        color: #0c4a6e;
+        
+        li {
+          margin-bottom: 8px;
+          line-height: 1.5;
+          
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+    }
+  }
+
+  &__actions {
+    padding: 20px 30px 30px;
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    border-top: 1px solid #e5e7eb;
+
+    .btn {
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      border: none;
+      min-width: 120px;
+
+      &--primary {
+        background: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+        color: white;
+
+        &:hover {
+          background: linear-gradient(135deg, #1d4ed8 0%, #1e40af 100%);
+          transform: translateY(-1px);
+          box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+        }
+      }
+
+      &--outline {
+        background: transparent;
+        border: 2px solid #d1d5db;
+        color: #4b5563;
+
+        &:hover {
+          border-color: #9ca3af;
+          background: #f9fafb;
+          transform: translateY(-1px);
+        }
+      }
+    }
+  }
+}
+
+.order-details,
+.event-details {
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid #f3f4f6;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    .label {
+      font-weight: 500;
+      color: #6b7280;
+    }
+
+    .value {
+      font-weight: 600;
+      color: #111827;
+      text-align: right;
+
+      &.total {
+        font-size: 1.2rem;
+        color: #059669;
+      }
+    }
+  }
+}
+
+// Адаптивность
+@media (max-width: 640px) {
+  .payment-success {
+    margin: 10px;
+    max-width: none;
+
+    &__header {
+      padding: 30px 20px 20px;
+    }
+
+    &__title {
+      font-size: 1.6rem;
+    }
+
+    &__content {
+      padding: 20px;
+    }
+
+    &__actions {
+      padding: 15px 20px 20px;
+      flex-direction: column;
+
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+
+  .order-details,
+  .event-details {
+    &__row {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 4px;
+
+      .value {
+        text-align: left;
+      }
+    }
+  }
+}
+
+// Стили для печати
+@media print {
+  .payment-success-overlay {
+    position: static;
+    background: none;
+    padding: 0;
+  }
+
+  .payment-success {
+    box-shadow: none;
+    border-radius: 0;
+    max-width: none;
+    max-height: none;
+
+    &__actions {
+      display: none;
+    }
+
+    &__header {
+      border-bottom: 2px solid #000;
+    }
+
+    &__content {
+      padding: 20px 0;
+    }
+
+    &__notice .notice-box {
+      background: none;
+      border: 1px solid #000;
+    }
+  }
+
+  .order-details,
+  .event-details {
+    &__row {
+      border-bottom: 1px solid #000;
+    }
+  }
+}
+
+// Стили для секции билетов
+.payment-success__tickets {
+  padding: 30px;
+  border-top: 1px solid #e5e7eb;
+  text-align: center;
+
+  h2 {
+    color: #1f2937;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 12px;
+  }
+
+  .tickets-description {
+    color: #6b7280;
+    font-size: 16px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+
+  .ticket-error {
+    background: #fef2f2;
+    border: 1px solid #fecaca;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+
+    p {
+      color: #dc2626;
+      margin: 0;
+      font-size: 14px;
+    }
+  }
+}
+
+// Модальное окно с билетами
+.tickets-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  padding: 20px;
+}
+
+.tickets-modal {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  max-width: 900px;
+  width: 100%;
+  max-height: 90vh;
+  overflow: hidden;
+  animation: slideIn 0.3s ease-out;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 30px;
+    border-bottom: 1px solid #e5e7eb;
+    background: #f9fafb;
+
+    h2 {
+      color: #1f2937;
+      font-size: 24px;
+      font-weight: 700;
+      margin: 0;
+    }
+  }
+
+  &__close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #6b7280;
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background: #e5e7eb;
+      color: #374151;
+    }
+  }
+
+  &__content {
+    max-height: calc(90vh - 80px);
+    overflow-y: auto;
+  }
+}

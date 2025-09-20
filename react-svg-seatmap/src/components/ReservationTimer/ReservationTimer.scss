@@ -1,0 +1,173 @@
+.reservation-timer {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 16px;
+  padding: 16px;
+  color: white;
+  text-align: center;
+  margin-bottom: 16px;
+  position: relative;
+  overflow: hidden;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, rgba(255,255,255,0.1) 0%, transparent 50%, rgba(255,255,255,0.1) 100%);
+    animation: shimmer 3s infinite;
+  }
+  
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 12px;
+    position: relative;
+    z-index: 1;
+  }
+  
+  &__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    backdrop-filter: blur(10px);
+    
+    svg {
+      color: white;
+      width: 18px;
+      height: 18px;
+    }
+  }
+  
+  &__text {
+    text-align: left;
+  }
+  
+  &__title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 2px;
+    line-height: 1.2;
+  }
+  
+  &__subtitle {
+    font-size: 12px;
+    opacity: 0.9;
+    font-weight: 500;
+  }
+  
+  &__countdown {
+    position: relative;
+    z-index: 1;
+  }
+  
+  &__time {
+    font-size: 36px;
+    font-weight: 800;
+    font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
+    margin-bottom: 12px;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+  }
+  
+  &__progress {
+    height: 6px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  &__progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #ff6b6b 0%, #ffa500 50%, #32cd32 100%);
+    border-radius: 3px;
+    transition: width 1s ease;
+    position: relative;
+    
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.3) 50%, transparent 100%);
+      animation: progressShine 2s infinite;
+    }
+  }
+  
+  &__expired {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 16px;
+    padding: 16px;
+    background: rgba(231, 76, 60, 0.2);
+    border-radius: 12px;
+    border: 2px solid rgba(231, 76, 60, 0.3);
+    
+    svg {
+      color: #ff6b6b;
+    }
+  }
+  
+  &.expired {
+    background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%);
+    
+    .reservation-timer__time {
+      color: #ff6b6b;
+    }
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes progressShine {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+// Адаптивность
+@media (max-width: 768px) {
+  .reservation-timer {
+    padding: 20px;
+    margin-bottom: 24px;
+    
+    &__header {
+      flex-direction: column;
+      text-align: center;
+      gap: 12px;
+    }
+    
+    &__text {
+      text-align: center;
+    }
+    
+    &__time {
+      font-size: 36px;
+      letter-spacing: 1px;
+    }
+  }
+}

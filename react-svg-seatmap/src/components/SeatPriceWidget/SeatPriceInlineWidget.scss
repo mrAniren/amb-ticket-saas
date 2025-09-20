@@ -1,0 +1,123 @@
+.seat-price-inline-widget {
+  background: #e3f2fd;
+  border: 1px solid #2196f3;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 16px;
+
+  &__header {
+    margin-bottom: 12px;
+
+    h4 {
+      margin: 0;
+      color: #1976d2;
+      font-size: 1rem;
+      font-weight: 600;
+    }
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__empty {
+    color: #1976d2;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 8px;
+
+    p {
+      margin: 0;
+    }
+  }
+}
+
+.price-options-inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.price-option-inline {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: white;
+  border: 2px solid #e9ecef;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+  min-width: 80px;
+
+  &:hover {
+    border-color: #2196f3;
+    background: #f8f9fa;
+    transform: translateY(-1px);
+    box-shadow: 0 2px 6px rgba(33, 150, 243, 0.15);
+  }
+
+  &:active {
+    transform: translateY(0);
+  }
+
+  &--remove {
+    border-color: #dc3545;
+    color: #dc3545;
+
+    &:hover {
+      border-color: #c82333;
+      background: #f8d7da;
+      box-shadow: 0 2px 6px rgba(220, 53, 69, 0.15);
+    }
+  }
+
+  &__color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    flex-shrink: 0;
+
+    &--remove {
+      background: #dc3545;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      font-weight: bold;
+      border-color: #dc3545;
+    }
+  }
+
+  &__value {
+    font-weight: 500;
+    white-space: nowrap;
+  }
+}
+
+// Адаптивность
+@media (max-width: 768px) {
+  .price-options-inline {
+    gap: 6px;
+  }
+
+  .price-option-inline {
+    padding: 6px 10px;
+    font-size: 0.85rem;
+    min-width: 70px;
+
+    &__color {
+      width: 16px;
+      height: 16px;
+
+      &--remove {
+        font-size: 12px;
+      }
+    }
+  }
+}

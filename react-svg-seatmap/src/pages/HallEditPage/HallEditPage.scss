@@ -1,0 +1,282 @@
+.hall-edit-page {
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+
+  &__header {
+    background-color: #160C28;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0; // Не сжимается при нехватке места
+    z-index: 10;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 0.25rem 0 0 0;
+      color: #F8D013;
+      font-size: 0.9rem;
+    }
+  }
+
+  &__logo {
+    height: 32px;
+    object-fit: contain;
+  }
+
+  &__controls {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  &__save-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+
+  &__last-saved {
+    font-size: 0.8rem;
+    color: #F8D013;
+    font-style: italic;
+  }
+
+  &__error {
+    font-size: 0.8rem;
+    color: #dc3545;
+    font-style: italic;
+  }
+
+  &__svg-upload {
+    display: flex;
+    align-items: center;
+    
+    label.btn {
+      cursor: pointer;
+      margin: 0;
+    }
+  }
+
+  &__content {
+    flex: 1;
+    display: flex;
+    background-color: #f8f9fa;
+    overflow: hidden;
+    min-height: 0; // Важно для правильного flex-shrink
+  }
+
+  &__editor {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    min-height: 0;
+  }
+
+  &__loading {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #160C28;
+
+    .loading-spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid #e0e0e0;
+      border-top: 3px solid #F8D013;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  }
+
+  &__error {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: #160C28;
+    text-align: center;
+    padding: 2rem;
+
+    h2 {
+      margin: 0;
+      color: #dc3545;
+    }
+
+    p {
+      margin: 0;
+      color: #666;
+    }
+  }
+
+  &__error-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+
+  &__footer {
+    background-color: #160C28;
+    color: #ffffff;
+    padding: 0.75rem 2rem;
+    border-top: 1px solid #e0e0e0;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0; // Не сжимается при нехватке места
+    z-index: 10;
+  }
+
+  &__stats {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__stat {
+    font-size: 0.9rem;
+    font-weight: 500;
+
+    &--clickable {
+      color: #F8D013;
+      cursor: pointer;
+      text-decoration: underline;
+      transition: opacity 0.2s;
+
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+
+// Адаптивность
+@media (max-width: 768px) {
+  .hall-edit-page {
+    &__header {
+      flex-direction: column;
+      gap: 1rem;
+      padding: 1rem;
+      flex-shrink: 0;
+    }
+
+    &__title {
+      text-align: center;
+
+      h1 {
+        font-size: 1.25rem;
+      }
+    }
+
+    &__controls {
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    &__error-actions {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__footer {
+      padding: 0.5rem 1rem;
+      flex-shrink: 0;
+    }
+
+    &__stats {
+      flex-direction: column;
+      gap: 0.5rem;
+      text-align: center;
+    }
+
+    &__stat {
+      font-size: 0.8rem;
+    }
+  }
+  
+  .seat-editor {
+    &__content {
+      flex-direction: column;
+      gap: 8px;
+      padding: 8px;
+    }
+    
+    &__sidebar {
+      width: 100%;
+      height: auto;
+      max-height: 200px;
+      order: 2;
+    }
+    
+    &__main {
+      flex: 1;
+      min-height: 0;
+      order: 1;
+    }
+  }
+}
+
+
+
+  // Стили для страницы ошибки отсутствующего SVG
+  &__error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 2rem;
+    text-align: center;
+    color: #666;
+
+    .error-icon {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      color: #d32f2f;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-bottom: 2rem;
+      max-width: 500px;
+      line-height: 1.5;
+    }
+
+    .error-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}

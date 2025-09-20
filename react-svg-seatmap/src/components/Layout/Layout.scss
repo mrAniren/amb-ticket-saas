@@ -1,0 +1,23 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+
+  &__content {
+    flex: 1;
+    margin-left: 240px;
+    min-height: 100vh;
+    background: #f8f9fa;
+  }
+}
+
+// Адаптивность
+@media (max-width: 768px) {
+  .layout {
+    flex-direction: column;
+
+    &__content {
+      margin-left: 0;
+      min-height: calc(100vh - 120px);
+    }
+  }
+}

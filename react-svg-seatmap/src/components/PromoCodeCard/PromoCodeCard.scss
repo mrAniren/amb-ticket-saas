@@ -1,0 +1,225 @@
+.promo-code-card {
+  background: white;
+  border: 2px solid #e9ecef;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 16px;
+  transition: all 0.2s ease;
+  
+  &:hover {
+    border-color: #F8D013;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  }
+
+  &.active {
+    border-left: 4px solid #F8D013;
+  }
+
+  &.inactive {
+    border-left: 4px solid #dc3545;
+    opacity: 0.8;
+  }
+}
+
+.promo-code-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.promo-code-card__code-section {
+  flex: 1;
+}
+
+.promo-code-card__code {
+  font-size: 20px;
+  font-weight: 700;
+  color: #160C28;
+  font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+  background: #f8f9fa;
+  padding: 8px 12px;
+  border-radius: 6px;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+
+.promo-code-card__name {
+  font-size: 18px;
+  font-weight: 600;
+  color: #160C28;
+  margin-bottom: 4px;
+}
+
+.promo-code-card__status-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 6px;
+}
+
+.promo-code-card__status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+
+  &.active {
+    background: #d1fae5;
+    color: #065f46;
+  }
+
+  &.inactive {
+    background: #f8d7da;
+    color: #721c24;
+  }
+}
+
+.promo-code-card__type {
+  font-size: 12px;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+.promo-code-card__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  gap: 20px;
+}
+
+.promo-code-card__info {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.promo-code-card__discount,
+.promo-code-card__dates,
+.promo-code-card__description,
+.promo-code-card__created {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.promo-code-card__label {
+  font-size: 14px;
+  color: #6c757d;
+  font-weight: 500;
+  min-width: 80px;
+}
+
+.promo-code-card__value {
+  font-size: 14px;
+  color: #4b5563;
+  font-weight: 600;
+}
+
+.promo-code-card__discount .promo-code-card__value {
+  background: #fff3cd;
+  color: #856404;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-weight: 700;
+}
+
+.promo-code-card__description .promo-code-card__value {
+  font-weight: 400;
+  font-style: italic;
+  color: #6c757d;
+}
+
+.promo-code-card__meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px;
+  min-width: 200px;
+}
+
+.promo-code-card__actions {
+  display: flex;
+  gap: 12px;
+  justify-content: flex-end;
+  border-top: 1px solid #e5e7eb;
+  padding-top: 16px;
+}
+
+.promo-code-card__action-btn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  &:hover {
+    transform: translateY(-1px);
+  }
+
+  &--edit {
+    background: #6c757d;
+    color: white;
+
+    &:hover {
+      background: #545b62;
+    }
+  }
+
+  &--delete {
+    background: #dc3545;
+    color: white;
+
+    &:hover {
+      background: #c82333;
+    }
+  }
+}
+
+// Адаптивность
+@media (max-width: 768px) {
+  .promo-code-card {
+    padding: 16px;
+  }
+
+  .promo-code-card__header {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .promo-code-card__status-section {
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 8px;
+  }
+
+  .promo-code-card__body {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .promo-code-card__meta {
+    align-items: flex-start;
+    min-width: auto;
+  }
+
+  .promo-code-card__actions {
+    justify-content: center;
+  }
+
+  .promo-code-card__action-btn {
+    flex: 1;
+    justify-content: center;
+  }
+}

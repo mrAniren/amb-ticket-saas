@@ -1,0 +1,4616 @@
+[
+  {
+    "id": "1",
+    "name": "Первая",
+    "hallId": "2",
+    "hallName": "Тестовый",
+    "createdAt": "2025-08-28T18:03:21.861Z",
+    "updatedAt": "2025-08-28T18:58:57.437Z",
+    "prices": [
+      {
+        "id": "ce57b89e-7903-4350-af38-644278a780ad",
+        "name": "Цена 1000 RUB",
+        "value": 1000,
+        "currency": "RUB",
+        "color": "#007bff"
+      },
+      {
+        "id": "0efddeb8-92d0-4068-9396-620b95cff6b5",
+        "name": "Цена 2000 RUB",
+        "value": 2000,
+        "currency": "RUB",
+        "color": "#20c997"
+      },
+      {
+        "id": "348fd545-d79c-4f01-90a2-d032d4ee2c63",
+        "name": "Цена 3000 RUB",
+        "value": 3000,
+        "currency": "RUB",
+        "color": "#17a2b8"
+      },
+      {
+        "id": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b",
+        "name": "Цена 4000 RUB",
+        "value": 4000,
+        "currency": "RUB",
+        "color": "#e83e8c"
+      }
+    ],
+    "seatPrices": [
+      {
+        "seatId": "temp-element-18",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-12",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-10",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-8",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-6",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-4",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-16",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-14",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-20",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-19",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-13",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-11",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-9",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-7",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-5",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-17",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-15",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-21",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-36",
+        "priceId": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b"
+      },
+      {
+        "seatId": "temp-element-30",
+        "priceId": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b"
+      },
+      {
+        "seatId": "temp-element-28",
+        "priceId": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b"
+      },
+      {
+        "seatId": "temp-element-26",
+        "priceId": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b"
+      },
+      {
+        "seatId": "temp-element-24",
+        "priceId": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b"
+      },
+      {
+        "seatId": "temp-element-22",
+        "priceId": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b"
+      },
+      {
+        "seatId": "temp-element-34",
+        "priceId": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b"
+      },
+      {
+        "seatId": "temp-element-32",
+        "priceId": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b"
+      },
+      {
+        "seatId": "temp-element-38",
+        "priceId": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b"
+      },
+      {
+        "seatId": "temp-element-37",
+        "priceId": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b"
+      },
+      {
+        "seatId": "temp-element-31",
+        "priceId": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b"
+      },
+      {
+        "seatId": "temp-element-29",
+        "priceId": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b"
+      },
+      {
+        "seatId": "temp-element-27",
+        "priceId": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b"
+      },
+      {
+        "seatId": "temp-element-25",
+        "priceId": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b"
+      },
+      {
+        "seatId": "temp-element-23",
+        "priceId": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b"
+      },
+      {
+        "seatId": "temp-element-35",
+        "priceId": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b"
+      },
+      {
+        "seatId": "temp-element-33",
+        "priceId": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b"
+      },
+      {
+        "seatId": "temp-element-39",
+        "priceId": "27562cda-7b9c-4aa8-b04e-c14c1e8d241b"
+      },
+      {
+        "seatId": "temp-element-198",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-48",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-46",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-44",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-42",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-40",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-196",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-194",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-200",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-199",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-193",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-47",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-45",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-43",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-41",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-197",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-195",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-201",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-216",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-210",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-208",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-206",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-204",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-202",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-214",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-212",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-218",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-217",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-211",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-209",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-207",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-205",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-203",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-215",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-213",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-219",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-234",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-228",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-226",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-224",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-222",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-220",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-232",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-230",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-236",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-235",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-229",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-227",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-225",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-223",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-221",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-233",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-231",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-237",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-63",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-57",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-55",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-53",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-51",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-49",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-61",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-59",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-65",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-64",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-58",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-56",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-54",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-52",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-50",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-62",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-60",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-66",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-252",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-246",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-244",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-242",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-240",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-238",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-250",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-248",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-254",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-253",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-247",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-245",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-243",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-241",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-239",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-251",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-249",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-255",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-270",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-264",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-262",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-260",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-258",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-256",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-268",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-266",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-272",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-271",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-265",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-263",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-261",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-259",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-257",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-269",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-267",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-273",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-288",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-282",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-280",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-278",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-276",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-274",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-286",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-284",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-290",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-289",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-283",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-281",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-279",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-277",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-275",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-287",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-285",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-291",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-81",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-75",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-73",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-71",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-69",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-67",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-79",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-77",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-83",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-82",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-76",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-74",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-72",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-70",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-68",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-80",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-78",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-84",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-99",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-93",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-91",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-89",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-87",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-85",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-97",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-95",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-101",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-100",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-94",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-92",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-90",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-88",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-86",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-98",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-96",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-102",
+        "priceId": "348fd545-d79c-4f01-90a2-d032d4ee2c63"
+      },
+      {
+        "seatId": "temp-element-306",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-300",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-298",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-296",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-294",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-292",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-304",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-302",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-308",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-307",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-301",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-299",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-297",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-295",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-293",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-305",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-303",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-309",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-324",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-318",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-316",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-314",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-312",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-310",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-322",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-320",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-326",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-325",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-319",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-317",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-315",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-313",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-311",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-323",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-321",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-327",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-342",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-336",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-334",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-332",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-330",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-328",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-340",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-338",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-344",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-343",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-337",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-335",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-333",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-331",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-329",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-341",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-339",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-345",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-360",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-354",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-352",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-350",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-348",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-346",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-358",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-356",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-362",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-117",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-111",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-109",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-107",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-105",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-103",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-115",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-113",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-119",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-118",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-112",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-110",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-108",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-106",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-104",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-116",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-114",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-120",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-135",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-129",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-127",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-125",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-123",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-121",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-133",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-131",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-137",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-136",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-130",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-128",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-126",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-124",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-122",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-134",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-132",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-138",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-153",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-147",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-145",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-143",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-141",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-139",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-151",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-149",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-155",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-154",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-148",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-146",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-144",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-142",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-140",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-152",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-150",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-156",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-171",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-165",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-163",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-161",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-159",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-157",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-169",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-167",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-173",
+        "priceId": "0efddeb8-92d0-4068-9396-620b95cff6b5"
+      },
+      {
+        "seatId": "temp-element-361",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-355",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-353",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-351",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-349",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-347",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-359",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-357",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-363",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-378",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-372",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-370",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-368",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-366",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-364",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-376",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-374",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-380",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-379",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-373",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-371",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-369",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-367",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-365",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-377",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-375",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-381",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-172",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-166",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-164",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-162",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-160",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-158",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-170",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-168",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-174",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-189",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-183",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-181",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-179",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-177",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-175",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-187",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-185",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-191",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-190",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-184",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-182",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-180",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-178",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-176",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-188",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-186",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      },
+      {
+        "seatId": "temp-element-192",
+        "priceId": "ce57b89e-7903-4350-af38-644278a780ad"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Второй",
+    "hallId": "2",
+    "hallName": "Тестовый",
+    "createdAt": "2025-08-28T23:30:04.899Z",
+    "updatedAt": "2025-08-28T23:30:34.950Z",
+    "prices": [
+      {
+        "id": "4ac5f192-6064-4240-9ebb-b408b07a8762",
+        "name": "Цена 1000 RUB",
+        "value": 1000,
+        "currency": "RUB",
+        "color": "#007bff"
+      }
+    ],
+    "seatPrices": [
+      {
+        "seatId": "temp-element-252",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-246",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-244",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-242",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-240",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-238",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-250",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-248",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-254",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-253",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-247",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-245",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-243",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-241",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-239",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-251",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-249",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-255",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-270",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-264",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-262",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-260",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-258",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-256",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-268",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-266",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-272",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-271",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-265",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-263",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-261",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-259",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-257",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-269",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-267",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-273",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-288",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-282",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-280",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-278",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-276",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-274",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-286",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-284",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-290",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-289",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-283",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-281",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-279",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-277",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-275",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-287",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-285",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-291",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-306",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-300",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-298",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-296",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-294",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-292",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-304",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-302",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-308",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-307",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-301",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-299",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-297",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-295",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-293",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-305",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-303",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-309",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-324",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-318",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-316",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-314",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-312",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-310",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-322",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-320",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-326",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-325",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-319",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-317",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-315",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-313",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-311",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-323",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-321",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-327",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-342",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-336",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-334",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-332",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-330",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-328",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-340",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-338",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-344",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-343",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-337",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-335",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-333",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-331",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-329",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-341",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-339",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-345",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-360",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-354",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-352",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-350",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-348",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-346",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-358",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-356",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-362",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-361",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-355",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-353",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-351",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-349",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-347",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-359",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-357",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-363",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-378",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-372",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-370",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-368",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-366",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-364",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-376",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-374",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-380",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-379",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-373",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-371",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-369",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-367",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-365",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-377",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-375",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-381",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-18",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-12",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-10",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-8",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-6",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-4",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-16",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-14",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-20",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-19",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-13",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-11",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-9",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-7",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-5",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-17",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-15",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-21",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-36",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-30",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-28",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-26",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-24",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-22",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-34",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-32",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-38",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-37",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-31",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-29",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-27",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-25",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-23",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-35",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-33",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-39",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-198",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-48",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-46",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-44",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-42",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-40",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-196",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-194",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-199",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-193",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-47",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-45",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-43",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-41",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-197",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-195",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-201",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-216",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-210",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-208",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-206",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-204",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-202",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-214",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-212",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-218",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-217",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-211",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-209",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-207",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-205",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-203",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-215",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-213",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-219",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-234",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-228",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-226",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-224",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-222",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-220",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-232",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-230",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-236",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-235",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-229",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-227",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-225",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-223",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-221",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-233",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-231",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-237",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-63",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-57",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-55",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-53",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-51",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-49",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-61",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-59",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-65",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-64",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-58",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-56",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-54",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-52",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-50",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-62",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-60",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-66",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-81",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-75",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-73",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-71",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-69",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-67",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-79",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-77",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-83",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-82",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-76",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-74",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-72",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-70",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-68",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-80",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-78",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-84",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-99",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-93",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-91",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-89",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-87",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-85",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-97",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-95",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-101",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-100",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-94",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-92",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-90",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-88",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-86",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-98",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-96",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-102",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-117",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-111",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-109",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-107",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-105",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-103",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-115",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-113",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-119",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-118",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-112",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-110",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-108",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-106",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-104",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-116",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-114",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-120",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-135",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-129",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-127",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-125",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-123",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-121",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-133",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-131",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-137",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-136",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-130",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-128",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-126",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-124",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-122",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-134",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-132",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-138",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-153",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-147",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-145",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-143",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-141",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-139",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-151",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-149",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-155",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-154",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-148",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-146",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-144",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-142",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-140",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-152",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-150",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-156",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-171",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-165",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-163",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-161",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-159",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-157",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-169",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-167",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-173",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-172",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-166",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-164",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-162",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-160",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-158",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-170",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-168",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-174",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-189",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-183",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-181",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-179",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-177",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-175",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-187",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-185",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-191",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-190",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-184",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-182",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-180",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-178",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-176",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-188",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-186",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-192",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      },
+      {
+        "seatId": "temp-element-200",
+        "priceId": "4ac5f192-6064-4240-9ebb-b408b07a8762"
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Третий",
+    "hallId": "2",
+    "hallName": "Тестовый",
+    "createdAt": "2025-08-29T04:52:31.257Z",
+    "updatedAt": "2025-08-29T04:53:38.675Z",
+    "prices": [
+      {
+        "id": "7a5858b8-d8d7-4d19-8879-7303c405ac2d",
+        "name": "Цена 1000 RUB",
+        "value": 1000,
+        "currency": "RUB",
+        "color": "#007bff"
+      }
+    ],
+    "seatPrices": [
+      {
+        "seatId": "temp-element-252",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-246",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-244",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-242",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-240",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-238",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-250",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-248",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-254",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-253",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-247",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-245",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-243",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-241",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-239",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-251",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-249",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-255",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-270",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-264",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-262",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-260",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-258",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-256",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-268",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-266",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-272",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-271",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-265",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-263",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-261",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-259",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-257",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-269",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-267",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-273",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-288",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-282",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-280",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-278",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-276",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-274",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-286",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-284",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-290",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-289",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-283",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-281",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-279",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-277",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-275",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-287",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-285",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-291",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-306",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-300",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-298",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-296",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-294",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-292",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-304",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-302",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-308",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-307",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-301",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-299",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-297",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-295",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-293",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-305",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-303",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-309",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-324",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-318",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-316",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-314",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-312",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-310",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-322",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-320",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-326",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-325",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-319",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-317",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-315",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-313",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-311",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-323",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-321",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-327",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-342",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-336",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-334",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-332",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-330",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-328",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-340",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-338",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-344",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-343",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-337",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-335",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-333",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-331",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-329",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-341",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-339",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-345",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-360",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-354",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-352",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-350",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-348",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-346",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-358",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-356",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-362",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-361",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-355",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-353",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-351",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-349",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-347",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-359",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-357",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-363",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-378",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-372",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-370",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-368",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-366",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-364",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-376",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-374",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-380",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-379",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-373",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-371",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-369",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-367",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-365",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-377",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-375",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-381",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-18",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-12",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-10",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-8",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-6",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-4",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-16",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-14",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-20",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-63",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-57",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-55",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-53",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-51",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-49",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-61",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-59",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-65",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-19",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-13",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-11",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-9",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-7",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-5",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-17",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-15",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-21",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-64",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-58",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-56",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-54",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-52",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-50",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-62",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-60",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-66",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-36",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-30",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-28",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-26",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-24",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-22",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-34",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-32",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-38",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-81",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-75",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-73",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-71",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-69",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-67",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-79",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-77",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-83",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-37",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-31",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-29",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-27",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-25",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-23",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-35",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-33",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-39",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-82",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-76",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-74",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-72",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-70",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-68",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-80",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-78",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-84",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-198",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-48",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-46",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-44",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-42",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-40",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-196",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-194",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-200",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-99",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-93",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-91",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-89",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-87",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-85",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-97",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-95",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-101",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-199",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-193",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-47",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-45",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-43",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-41",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-197",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-195",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-201",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-100",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-94",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-92",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-90",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-88",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-86",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-98",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-96",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-102",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-216",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-210",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-208",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-206",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-204",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-202",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-214",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-212",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-218",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-117",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-111",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-109",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-107",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-105",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-103",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-115",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-113",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-119",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-217",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-211",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-209",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-207",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-205",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-203",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-215",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-213",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-219",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-118",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-112",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-110",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-108",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-106",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-104",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-116",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-114",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-120",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-234",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-228",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-226",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-224",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-222",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-220",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-232",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-230",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-236",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-135",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-129",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-127",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-125",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-123",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-121",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-133",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-131",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-137",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-235",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-229",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-227",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-225",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-223",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-221",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-233",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-231",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-237",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-136",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-130",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-128",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-126",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-124",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-122",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-134",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-132",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-138",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-153",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-147",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-145",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-143",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-141",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-139",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-151",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-149",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-155",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-154",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-148",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-146",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-144",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-142",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-140",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-152",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-150",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-156",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-171",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-165",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-163",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-161",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-159",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-157",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-169",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-167",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-173",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-172",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-166",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-164",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-162",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-160",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-158",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-170",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-168",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-174",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-189",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-183",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-181",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-179",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-177",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-175",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-187",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-185",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-191",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-190",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-184",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-182",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-180",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-178",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-176",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-188",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-186",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      },
+      {
+        "seatId": "temp-element-192",
+        "priceId": "7a5858b8-d8d7-4d19-8879-7303c405ac2d"
+      }
+    ]
+  }
+]

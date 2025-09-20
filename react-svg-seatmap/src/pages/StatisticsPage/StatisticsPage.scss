@@ -1,0 +1,653 @@
+.statistics-page {
+  padding: 24px;
+  max-width: 1400px;
+  margin: 0 auto;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+
+    h1 {
+      font-size: 28px;
+      font-weight: 600;
+      color: #333;
+      margin: 0;
+    }
+  }
+
+  &__selected-info {
+    .selected-badge {
+      background: #e9ecef;
+      color: #495057;
+      padding: 6px 12px;
+      border-radius: 16px;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+
+  &__filters {
+    margin-bottom: 24px;
+  }
+
+  &__controls {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  &__content {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e9ecef;
+    overflow: hidden;
+  }
+}
+
+// Иерархическая таблица
+.statistics-table {
+  &__header {
+    background: #f8f9fa;
+    border-bottom: 2px solid #e9ecef;
+  }
+
+  &__body {
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    min-height: 48px;
+    border-bottom: 1px solid #f1f3f4;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: #f8f9fa;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    // Стили для разных уровней вложенности
+    &--level-0 {
+      font-weight: 600;
+      background-color: #f8f9fa;
+      
+      &:hover {
+        background-color: #e9ecef;
+      }
+    }
+
+    &--level-1 {
+      font-weight: 500;
+    }
+
+    &--level-2 {
+      font-weight: 400;
+    }
+
+    &--level-3 {
+      font-weight: 400;
+      color: #666;
+    }
+
+    &--level-4 {
+      font-weight: 400;
+      color: #666;
+      font-size: 14px;
+    }
+
+    &--level-5 {
+      font-weight: 400;
+      color: #666;
+      font-size: 14px;
+    }
+
+    &--level-6 {
+      font-weight: 400;
+      color: #666;
+      font-size: 13px;
+    }
+
+    &--level-7 {
+      font-weight: 400;
+      color: #666;
+      font-size: 13px;
+    }
+
+    &--level-8 {
+      font-weight: 400;
+      color: #666;
+      font-size: 12px;
+    }
+  }
+
+  &__cell {
+    display: flex;
+    align-items: center;
+    padding: 8px 12px;
+    min-height: 48px;
+
+    &--checkbox {
+      width: 40px;
+      justify-content: center;
+    }
+
+    &--toggle {
+      width: 40px;
+      justify-content: center;
+    }
+
+    &--icon {
+      width: 40px;
+      justify-content: center;
+      font-size: 16px;
+    }
+
+    &--name {
+      flex: 1;
+      font-size: 14px;
+    }
+
+    &--stats {
+      width: 120px;
+      justify-content: center;
+      font-size: 13px;
+      color: #666;
+    }
+  }
+
+  &__checkbox {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    accent-color: #007bff;
+  }
+
+  &__toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: #666;
+    padding: 4px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+
+    &:hover {
+      background-color: #e9ecef;
+      color: #333;
+    }
+
+    &.expanded {
+      color: #007bff;
+    }
+
+    &.collapsed {
+      color: #666;
+    }
+  }
+
+  &__placeholder {
+    color: #999;
+    font-style: italic;
+  }
+
+  &__loading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    color: #666;
+
+    .spinner {
+      width: 40px;
+      height: 40px;
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid #007bff;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-bottom: 16px;
+    }
+
+    span {
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+
+  &__error {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    color: #dc3545;
+    text-align: center;
+
+    p {
+      margin: 0 0 16px 0;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    button {
+      padding: 8px 16px;
+      background: #dc3545;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 500;
+      transition: background-color 0.2s ease;
+
+      &:hover {
+        background: #c82333;
+      }
+    }
+  }
+
+  &__empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 20px;
+    color: #666;
+    text-align: center;
+
+    p:first-child {
+      margin: 0 0 8px 0;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    p:last-child {
+      margin: 0;
+      font-size: 14px;
+      color: #999;
+    }
+  }
+}
+
+// Анимация спиннера
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+// Адаптивность
+@media (max-width: 768px) {
+  .statistics-page {
+    padding: 16px;
+
+    &__header {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 12px;
+
+      h1 {
+        font-size: 24px;
+        text-align: center;
+      }
+    }
+
+    &__selected-info {
+      text-align: center;
+    }
+  }
+
+  .statistics-table {
+    &__body {
+      max-height: 60vh;
+    }
+
+    &__row {
+      min-height: 44px;
+    }
+
+    &__cell {
+      padding: 6px 8px;
+      min-height: 44px;
+
+      &--checkbox {
+        width: 36px;
+      }
+
+      &--toggle {
+        width: 36px;
+      }
+
+      &--icon {
+        width: 36px;
+        font-size: 14px;
+      }
+
+      &--name {
+        font-size: 13px;
+      }
+
+      &--stats {
+        width: 100px;
+        font-size: 12px;
+      }
+    }
+
+    &__checkbox {
+      width: 14px;
+      height: 14px;
+    }
+
+    &__toggle {
+      font-size: 10px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .statistics-page {
+    padding: 12px;
+  }
+
+  .statistics-table {
+    &__cell {
+      padding: 4px 6px;
+
+      &--checkbox {
+        width: 32px;
+      }
+
+      &--toggle {
+        width: 32px;
+      }
+
+      &--icon {
+        width: 32px;
+        font-size: 12px;
+      }
+
+      &--name {
+        font-size: 12px;
+      }
+
+      &--stats {
+        width: 80px;
+        font-size: 11px;
+      }
+    }
+  }
+}
+
+// Стили для селектора валюты
+.currency-selector {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+
+  label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #160C28;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .currency-select {
+    padding: 8px 12px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    font-size: 14px;
+    background: white;
+    color: #160C28;
+    transition: border-color 0.2s;
+    min-width: 120px;
+
+    &:focus {
+      outline: none;
+      border-color: #F8D013;
+    }
+
+    &:hover {
+      border-color: #adb5bd;
+    }
+  }
+
+  .currency-info {
+    font-size: 14px;
+    color: #6c757d;
+    font-weight: 500;
+  }
+}
+
+// Фильтр по датам - в стилистике HallListPage/EventListPage
+.statistics-page__filters {
+  background: white;
+  padding: 20px 32px;
+  border-bottom: 1px solid #e9ecef;
+  display: flex;
+  align-items: end;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+
+.date-filter {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    width: 100%;
+
+    h3 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 600;
+      color: #160C28;
+    }
+  }
+
+  &__quick-buttons {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+
+  &__inputs {
+    display: flex;
+    gap: 20px;
+    align-items: end;
+    flex-wrap: wrap;
+  }
+
+  &__info {
+    padding-top: 12px;
+    border-top: 1px solid #e9ecef;
+    margin-top: 16px;
+  }
+}
+
+.quick-btn {
+  padding: 8px 16px;
+  background: white;
+  border: 2px solid #e9ecef;
+  border-radius: 6px;
+  color: #6c757d;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+  &:hover {
+    border-color: #F8D013;
+    color: #160C28;
+  }
+
+  &:active {
+    background: #F8D013;
+    border-color: #F8D013;
+    color: #160C28;
+    transform: translateY(-1px);
+  }
+
+  &.reset-btn {
+    background: #dc3545;
+    border-color: #dc3545;
+    color: white;
+
+    &:hover {
+      background: #c82333;
+      border-color: #bd2130;
+    }
+
+    &:active {
+      background: #bd2130;
+    }
+  }
+}
+
+.date-input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 160px;
+
+  label {
+    font-size: 12px;
+    font-weight: 500;
+    color: #6c757d;
+    margin: 0;
+  }
+}
+
+.date-input {
+  padding: 8px 12px;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #495057;
+  background: white;
+  transition: border-color 0.2s;
+  width: 200px;
+
+  &:focus {
+    outline: none;
+    border-color: #F8D013;
+  }
+
+  &:hover {
+    border-color: #adb5bd;
+  }
+
+  &::placeholder {
+    color: #adb5bd;
+  }
+}
+
+.filter-info {
+  font-size: 14px;
+  color: #6c757d;
+  font-weight: 500;
+}
+
+// Адаптивность для фильтра дат
+@media (max-width: 768px) {
+  .statistics-page {
+    &__controls {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 12px;
+    }
+  }
+
+  .currency-selector {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+
+    .currency-select {
+      width: 100%;
+    }
+  }
+
+  .statistics-page__filters {
+    padding: 16px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+
+  .date-filter {
+    &__header {
+      flex-direction: column;
+      align-items: stretch;
+      gap: 12px;
+
+      h3 {
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+
+    &__quick-buttons {
+      justify-content: center;
+    }
+
+    &__inputs {
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .date-input-group {
+      min-width: auto;
+    }
+  }
+
+  .date-input {
+    width: 100%;
+  }
+
+  .quick-btn {
+    padding: 6px 12px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .statistics-page__filters {
+    padding: 12px;
+  }
+
+  .date-filter {
+    &__quick-buttons {
+      gap: 6px;
+    }
+  }
+
+  .quick-btn {
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+  .date-input {
+    padding: 8px 10px;
+    font-size: 13px;
+  }
+}

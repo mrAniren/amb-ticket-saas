@@ -1,0 +1,1 @@
+export { HallEditPage } from './HallEditPage';

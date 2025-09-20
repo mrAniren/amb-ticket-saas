@@ -1,0 +1,154 @@
+.promo-code-input {
+  margin: 16px 0;
+  padding: 16px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+
+    h4 {
+      margin: 0;
+      font-size: 14px;
+      font-weight: 600;
+      color: #495057;
+    }
+  }
+}
+
+.promo-code-remove {
+  background: none;
+  border: none;
+  color: #dc3545;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+
+  &:hover {
+    background-color: rgba(220, 53, 69, 0.1);
+  }
+}
+
+.promo-code-applied {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: #d4edda;
+  border: 1px solid #c3e6cb;
+  border-radius: 6px;
+  color: #155724;
+}
+
+.promo-code-info {
+  .promo-code-name {
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 2px;
+  }
+
+  .promo-code-code {
+    font-size: 12px;
+    opacity: 0.8;
+    font-family: monospace;
+  }
+}
+
+.promo-code-discount {
+  font-weight: bold;
+  font-size: 16px;
+  color: #28a745;
+}
+
+.promo-code-form {
+  .promo-code-input-group {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+}
+
+.promo-code-field {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 14px;
+  transition: border-color 0.2s ease;
+
+  &:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+  }
+
+  &:disabled {
+    background-color: #e9ecef;
+    cursor: not-allowed;
+  }
+
+  &::placeholder {
+    color: #6c757d;
+  }
+}
+
+.promo-code-apply {
+  padding: 10px 16px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  white-space: nowrap;
+
+  &:hover:not(:disabled) {
+    background: #0056b3;
+  }
+
+  &:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+  }
+}
+
+.promo-code-error {
+  color: #dc3545;
+  font-size: 12px;
+  margin-top: 4px;
+  padding: 4px 8px;
+  background: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 4px;
+}
+
+// Адаптивность
+@media (max-width: 480px) {
+  .promo-code-input {
+    margin: 12px 0;
+    padding: 12px;
+  }
+
+  .promo-code-input-group {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .promo-code-apply {
+    width: 100%;
+  }
+}

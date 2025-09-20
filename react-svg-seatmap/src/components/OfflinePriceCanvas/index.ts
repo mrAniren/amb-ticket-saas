@@ -1,0 +1,1 @@
+export { OfflinePriceCanvas } from './OfflinePriceCanvas';

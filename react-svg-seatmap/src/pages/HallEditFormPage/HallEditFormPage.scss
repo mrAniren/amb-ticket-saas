@@ -1,0 +1,132 @@
+.hall-edit-form-page {
+  min-height: 100vh;
+  background: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    background: #160C28;
+    color: white;
+    padding: 24px 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 4px 0 0 0;
+      color: #F8D013;
+      font-size: 14px;
+    }
+  }
+
+  &__logo {
+    height: 42px;
+    object-fit: contain;
+  }
+
+  &__controls {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+
+  &__content {
+    flex: 1;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__form-container {
+    width: 100%;
+    max-width: 800px;
+  }
+
+  &__loading {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: #160C28;
+
+    .loading-spinner {
+      width: 40px;
+      height: 40px;
+      border: 3px solid #e0e0e0;
+      border-top: 3px solid #F8D013;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  }
+
+  &__error {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    color: #160C28;
+    text-align: center;
+    padding: 32px;
+
+    h2 {
+      margin: 0;
+      color: #dc3545;
+    }
+
+    p {
+      margin: 0;
+      color: #666;
+    }
+  }
+}
+
+// Адаптивность
+@media (max-width: 768px) {
+  .hall-edit-form-page {
+    &__header {
+      flex-direction: column;
+      gap: 16px;
+      padding: 20px;
+    }
+
+    &__title {
+      text-align: center;
+
+      h1 {
+        font-size: 24px;
+      }
+    }
+
+    &__controls {
+      justify-content: center;
+    }
+
+    &__content {
+      padding: 20px;
+    }
+  }
+}

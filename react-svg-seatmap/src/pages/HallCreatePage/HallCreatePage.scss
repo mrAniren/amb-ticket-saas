@@ -1,0 +1,241 @@
+.hall-create-page {
+  min-height: 100vh;
+  background: #f8f9fa;
+
+  &__header {
+    background: white;
+    padding: 24px 32px;
+    border-bottom: 1px solid #e9ecef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  &__title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    h1 {
+      margin: 0 0 4px 0;
+      color: #160C28;
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 0;
+      color: #6c757d;
+      font-size: 14px;
+    }
+  }
+
+  &__logo {
+    height: 42px;
+    object-fit: contain;
+  }
+
+  &__controls {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  &__content {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+  }
+
+  &__form-container {
+    width: 100%;
+    max-width: 800px;
+  }
+
+  &__error {
+    background: #ffebee;
+    color: #c62828;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid #ffcdd2;
+    margin-bottom: 24px;
+    text-align: center;
+  }
+}
+
+.hall-form {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+
+  &__form {
+    padding: 32px;
+  }
+
+  &__section {
+    margin-bottom: 32px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    h3 {
+      margin: 0 0 20px 0;
+      color: #160C28;
+      font-size: 18px;
+      font-weight: 600;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #f8f9fa;
+    }
+  }
+
+  &__files {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+
+    @media (max-width: 768px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__file-group {
+    display: flex;
+    flex-direction: column;
+
+    label {
+      margin-bottom: 8px;
+      color: #160C28;
+      font-weight: 500;
+      font-size: 14px;
+    }
+  }
+
+  &__actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 32px;
+    padding-top: 24px;
+    border-top: 1px solid #e9ecef;
+
+    @media (max-width: 480px) {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+.file-upload {
+  &__area {
+    border: 2px dashed #e9ecef;
+    border-radius: 8px;
+    padding: 24px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    background: #f8f9fa;
+
+    &:hover:not(&--disabled) {
+      border-color: #F8D013;
+      background: #fefbf0;
+    }
+
+    &--drag-active {
+      border-color: #F8D013;
+      background: #fefbf0;
+      transform: scale(1.02);
+    }
+
+    &--disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+      background: #f1f3f4;
+    }
+  }
+
+  &__placeholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  &__icon {
+    font-size: 32px;
+    opacity: 0.6;
+  }
+
+  &__text {
+    color: #495057;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  &__sub-text {
+    color: #6c757d;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 4px;
+  }
+
+  &__selected {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 12px;
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 6px;
+  }
+
+  &__file-info {
+    flex: 1;
+    text-align: left;
+  }
+
+  &__file-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: #160C28;
+    margin-bottom: 2px;
+  }
+
+  &__file-size {
+    font-size: 12px;
+    color: #6c757d;
+  }
+
+  &__remove {
+    background: none;
+    border: none;
+    color: #dc3545;
+    font-size: 18px;
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+
+    &:hover:not(:disabled) {
+      background: #f8d7da;
+    }
+
+    &:disabled {
+      opacity: 0.6;
+      cursor: not-allowed;
+    }
+  }
+
+  &__help {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #6c757d;
+    line-height: 1.4;
+  }
+}

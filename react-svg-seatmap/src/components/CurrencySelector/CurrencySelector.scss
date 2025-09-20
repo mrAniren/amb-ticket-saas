@@ -1,0 +1,118 @@
+.currency-selector {
+  width: 100%;
+  
+  .currency-select__control {
+    border-radius: 4px;
+    font-size: 14px;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      border-color: #007bff !important;
+    }
+  }
+  
+  .currency-select__value-container {
+    padding: 0 8px;
+  }
+  
+  .currency-select__input-container {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .currency-select__indicator-separator {
+    background-color: #ddd;
+  }
+  
+  .currency-select__dropdown-indicator {
+    color: #6c757d;
+    
+    &:hover {
+      color: #007bff;
+    }
+  }
+  
+  .currency-select__clear-indicator {
+    color: #6c757d;
+    
+    &:hover {
+      color: #dc3545;
+    }
+  }
+  
+  .currency-select__menu {
+    border-radius: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    margin-top: 4px;
+  }
+  
+  .currency-select__menu-list {
+    padding: 4px 0;
+    max-height: 200px;
+  }
+  
+  .currency-select__option {
+    cursor: pointer;
+    transition: all 0.15s ease;
+    
+    &:hover {
+      background-color: #f8f9fa !important;
+    }
+    
+    &--is-selected {
+      background-color: #007bff !important;
+      color: white !important;
+    }
+    
+    &--is-focused {
+      background-color: #f8f9fa !important;
+    }
+  }
+  
+  .currency-select__placeholder {
+    color: #6c757d;
+  }
+  
+  .currency-select__single-value {
+    color: #333;
+  }
+  
+  .currency-select__input {
+    color: #333;
+  }
+  
+  .currency-select__loading-message,
+  .currency-select__no-options-message {
+    color: #6c757d;
+    padding: 8px 12px;
+    text-align: center;
+    font-style: italic;
+  }
+}
+
+// Компактная версия для использования в формах
+.currency-selector--compact {
+  .currency-select__control {
+    min-height: 36px;
+    font-size: 13px;
+  }
+  
+  .currency-select__value-container {
+    padding: 0 6px;
+  }
+}
+
+// Версия для использования в заголовках
+.currency-selector--header {
+  .currency-select__control {
+    min-height: 32px;
+    font-size: 12px;
+    background-color: #f8f9fa;
+    border-color: #e9ecef;
+  }
+  
+  .currency-select__value-container {
+    padding: 0 6px;
+  }
+}

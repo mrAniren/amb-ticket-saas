@@ -1,0 +1,365 @@
+.zone-manager {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  width: 280px;
+  font-family: system-ui, -apple-system, sans-serif;
+  
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+    
+    h3 {
+      margin: 0;
+      font-size: 16px;
+      font-weight: 600;
+      color: #333;
+    }
+  }
+
+  &__currency {
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #eee;
+  }
+
+  &__currency-label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 13px;
+    font-weight: 500;
+    color: #555;
+  }
+
+  &__currency-selector {
+    width: 100%;
+  }
+  
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  &__item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      border-color: #976bbd;
+      background: #f8f9fa;
+    }
+    
+    &--active {
+      border-color: #976bbd;
+      background: #f5f3ff;
+      box-shadow: 0 0 0 2px rgba(151, 107, 189, 0.1);
+    }
+  }
+  
+  &__color {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+  }
+  
+  &__info {
+    flex: 1;
+    min-width: 0;
+  }
+  
+  &__name {
+    display: block;
+    font-weight: 500;
+    color: #333;
+    font-size: 14px;
+    line-height: 1.3;
+  }
+  
+  &__badge {
+    display: inline-block;
+    background: #e3f2fd;
+    color: #1976d2;
+    font-size: 10px;
+    font-weight: 500;
+    padding: 2px 6px;
+    border-radius: 10px;
+    margin-left: 6px;
+    vertical-align: top;
+  }
+  
+  &__description {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    margin-top: 2px;
+    line-height: 1.3;
+  }
+  
+  &__actions {
+    display: flex;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+  
+  &__action {
+    background: none;
+    border: none;
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: #666;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      background: #f0f0f0;
+      color: #333;
+    }
+    
+    &--danger {
+      &:hover {
+        background: #fee;
+        color: #dc3545;
+      }
+    }
+  }
+  
+  &__empty {
+    text-align: center;
+    padding: 32px 16px;
+    color: #666;
+    
+    p {
+      margin: 0 0 16px 0;
+      font-size: 14px;
+    }
+  }
+}
+
+// Общие стили для кнопок
+.btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  text-decoration: none;
+  display: inline-block;
+  
+  &--primary {
+    background: #976bbd;
+    color: white;
+    
+    &:hover {
+      background: #8559a8;
+    }
+  }
+  
+  &--secondary {
+    background: #6c757d;
+    color: white;
+    
+    &:hover {
+      background: #545b62;
+    }
+  }
+  
+  &--sm {
+    padding: 6px 12px;
+    font-size: 11px;
+  }
+}
+
+// Стили для диалога зон
+.zone-dialog-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
+}
+
+.zone-dialog {
+  background: white;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 90vh;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 24px;
+    border-bottom: 1px solid #eee;
+    
+    h3 {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 600;
+      color: #333;
+    }
+  }
+  
+  &__close {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #666;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    
+    &:hover {
+      background: #f0f0f0;
+      color: #333;
+    }
+  }
+  
+  &__form {
+    padding: 24px;
+    max-height: calc(90vh - 80px);
+    overflow-y: auto;
+  }
+  
+  &__field {
+    margin-bottom: 20px;
+    
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-size: 14px;
+      font-weight: 500;
+      color: #333;
+    }
+    
+    input, textarea {
+      width: 100%;
+      padding: 10px 12px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+      font-family: inherit;
+      
+      &:focus {
+        outline: none;
+        border-color: #976bbd;
+        box-shadow: 0 0 0 2px rgba(151, 107, 189, 0.25);
+      }
+      
+      &::placeholder {
+        color: #999;
+      }
+    }
+    
+    textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+  }
+  
+  &__input--error {
+    border-color: #dc3545 !important;
+    
+    &:focus {
+      box-shadow: 0 0 0 2px rgba(220, 53, 69, 0.25) !important;
+    }
+  }
+  
+  &__error {
+    display: block;
+    color: #dc3545;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+  
+  &__colors {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+  
+  &__color {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border: 3px solid transparent;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    
+    &:hover {
+      transform: scale(1.1);
+    }
+    
+    &--selected {
+      border-color: #333;
+      box-shadow: 0 0 0 2px white, 0 0 0 4px currentColor;
+    }
+  }
+  
+  &__preview {
+    background: #f8f9fa;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    
+    span {
+      display: block;
+      font-size: 12px;
+      color: #666;
+      margin-bottom: 8px;
+    }
+  }
+  
+  &__preview-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  &__preview-color {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  &__actions {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    margin-top: 24px;
+  }
+}

@@ -1,0 +1,94 @@
+.editor-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  background: white;
+  border-bottom: 1px solid #dee2e6;
+  font-family: system-ui, -apple-system, sans-serif;
+
+  &__section {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  &__group {
+    display: flex;
+    gap: 8px;
+  }
+
+  &__stats {
+    display: flex;
+    gap: 12px;
+    font-size: 12px;
+    color: #6c757d;
+
+    span {
+      padding: 4px 8px;
+      background: #f8f9fa;
+      border-radius: 4px;
+    }
+  }
+
+  .btn {
+    padding: 6px 12px;
+    border: 1px solid #dee2e6;
+    border-radius: 4px;
+    background: white;
+    color: #495057;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s;
+
+    &:hover {
+      background: #f8f9fa;
+      border-color: #adb5bd;
+    }
+
+    &--active {
+      background: #007bff;
+      color: white;
+      border-color: #007bff;
+
+      &:hover {
+        background: #0056b3;
+        border-color: #0056b3;
+      }
+    }
+
+    &--primary {
+      background: #28a745;
+      color: white;
+      border-color: #28a745;
+
+      &:hover {
+        background: #1e7e34;
+        border-color: #1e7e34;
+      }
+    }
+
+    &--secondary {
+      background: #6c757d;
+      color: white;
+      border-color: #6c757d;
+
+      &:hover {
+        background: #545b62;
+        border-color: #545b62;
+      }
+    }
+
+    &--danger {
+      background: #dc3545;
+      color: white;
+      border-color: #dc3545;
+
+      &:hover {
+        background: #c82333;
+        border-color: #c82333;
+      }
+    }
+  }
+}
